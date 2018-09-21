@@ -15,6 +15,7 @@
         android:layout_marginLeft="140dp"
         android:layout_marginRight="156dp"
         android:layout_marginStart="140dp"
+        android:onClick="sendMessage"
         android:text="Touch here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
