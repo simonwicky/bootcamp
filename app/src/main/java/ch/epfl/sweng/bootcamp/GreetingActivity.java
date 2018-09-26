@@ -15,7 +15,7 @@ public class GreetingActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        message = "Hello" + message + "!";
+        message = "Hello " + message + "!";
 
         TextView textView = findViewById(R.id.greetingMessage);
         textView.setText(message);
